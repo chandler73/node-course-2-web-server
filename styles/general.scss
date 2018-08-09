@@ -1,0 +1,61 @@
+$headline-background-color: #4e96b7;
+$white-color: #f2eded;
+$body-background: #3c4444;
+$title-font: Helvetica, sans-serif;
+$body-font: "Times New Roman";
+
+
+body {
+	background-color: $body-background;
+	font: $body-font;
+	color: $white-color;
+} 
+
+a {
+	color: $white-color;
+}
+
+.headline {
+	background-color: $headline-background-color;
+	color: $white-color;
+	font-size: x-large;
+}
+
+.nav {
+	font: $title-font;
+	position: absolute;
+	bottom: 0;
+	&.navbar-nav {
+	font-size: large;
+	decoration: none;
+	}
+} 
+
+.navbar {
+	background-color: $headline-background-color;
+	height: 265px;
+}
+
+.navbar-brand {
+	color: $white-color;
+	font-size: xx-large;
+	position: absolute;
+	padding-top: 50px;
+}
+
+.headshot {
+	max-width: 150px;
+	height: auto;
+}
+
+.headshot-spacing {
+	padding-top: 15px;
+}
+
+.name-div {
+	max-width: 400px;
+}
+
+
+
+

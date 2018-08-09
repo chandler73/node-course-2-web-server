@@ -1,0 +1,52 @@
+body {
+  background-color: #3c4444;
+  font: "Times New Roman";
+  color: #f2eded;
+}
+
+a {
+  color: #f2eded;
+}
+
+.headline {
+  background-color: #4e96b7;
+  color: #f2eded;
+  font-size: x-large;
+}
+
+.nav {
+  font: Helvetica, sans-serif;
+  position: absolute;
+  bottom: 0;
+}
+.nav.navbar-nav {
+  font-size: large;
+  decoration: none;
+}
+
+.navbar {
+  background-color: #4e96b7;
+  height: 265px;
+}
+
+.navbar-brand {
+  color: #f2eded;
+  font-size: xx-large;
+  position: absolute;
+  padding-top: 50px;
+}
+
+.headshot {
+  max-width: 150px;
+  height: auto;
+}
+
+.headshot-spacing {
+  padding-top: 15px;
+}
+
+.name-div {
+  max-width: 400px;
+}
+
+/*# sourceMappingURL=general.css.map */
