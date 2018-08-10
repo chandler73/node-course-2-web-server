@@ -1,12 +1,12 @@
-$headline-background-color: #4e96b7;
+$blue-color: #4e96b7;
 $white-color: #f2eded;
-$body-background: #3c4444;
+$gray-color: #3c4444;
 $title-font: Helvetica, sans-serif;
 $body-font: "Times New Roman";
 
 
 body {
-	background-color: $body-background;
+	background-color: $gray-color;
 	font: $body-font;
 	color: $white-color;
 } 
@@ -16,7 +16,7 @@ a {
 }
 
 .headline {
-	background-color: $headline-background-color;
+	background-color: $blue-color;
 	color: $white-color;
 	font-size: x-large;
 }
@@ -32,7 +32,7 @@ a {
 } 
 
 .navbar {
-	background-color: $headline-background-color;
+	background-color: $blue-color;
 	height: 165px;
 }
 

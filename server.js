@@ -33,6 +33,10 @@ hbs.registerHelper('getCurrentYear', () => {
 	return new Date().getFullYear();
 });
 
+hbs.registerHelper('websiteTitle', () => {
+	return 'Chandler Molbert';
+});
+
 hbs.registerHelper('screamIt', (text) => {
 	return text.toUpperCase();
 });
@@ -42,7 +46,8 @@ app.get('/', (req, res) => {
 		pageTitle: `Home`,
 		myName: 'Chandler Molbert',
 		myInfo: 'Software Developer, Opera Singer, Hopeful for the future',
-		welcomeMessage: 'Welcome to this website!',
+		bioInfo: 'This is where my bio info will go when I get around to it./n' +
+			 			 ' Welcome to the site, more content to come.'
 	});
 });
 
