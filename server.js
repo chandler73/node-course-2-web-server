@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
 	res.render('home.hbs', {
 		pageTitle: `Home`,
 		myName: 'Chandler Molbert',
-		myInfo: 'This is me.',
+		myInfo: 'Software Developer, Opera Singer, Hopeful for the future',
 		welcomeMessage: 'Welcome to this website!',
 	});
 });
